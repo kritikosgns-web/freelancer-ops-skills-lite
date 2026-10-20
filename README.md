@@ -1,5 +1,7 @@
 # Freelancer Ops Skills: Lite (free)
 
+[![skills.sh installs](https://skills.sh/b/kritikosgns-web/freelancer-ops-skills-lite)](https://skills.sh/kritikosgns-web/freelancer-ops-skills-lite)
+
 Three free Claude Code skills for the three emails freelancers rewrite most often: the proposal, the "that wasn't in scope" reply, and the late-invoice chaser.
 
 Each one is a `SKILL.md` with explicit inputs, decision rules and a fixed output format, so it's a procedure Claude follows rather than a one-off prompt. Describe the situation and Claude loads the matching skill.
@@ -11,6 +13,16 @@ Each one is a `SKILL.md` with explicit inputs, decision rules and a fixed output
 | `invoice-followup` | "Invoice #1042 is 12 days late" | The right reminder for how overdue it is, from friendly nudge to final notice |
 
 ## Install
+
+One line, any agent that reads `SKILL.md` (Claude Code, Cursor, Codex, Gemini CLI…):
+
+```bash
+npx skills add kritikosgns-web/freelancer-ops-skills-lite
+```
+
+Or one skill only: `npx skills add kritikosgns-web/freelancer-ops-skills-lite --skill proposal-writer`
+
+Without Node:
 
 ```bash
 git clone https://github.com/kritikosgns-web/freelancer-ops-skills-lite
@@ -30,6 +42,11 @@ The full pack adds `pricing-calculator`, `contract-review`, `client-onboarding`,
 Also on [Etsy](https://www.etsy.com/listing/4597264171/claude-code-skills-bundle-for).
 
 Launching your own product? See **[Indie Launch Skills](https://kritikos12.gumroad.com/l/ppxgwi?utm_source=github&utm_campaign=lite)**: 8 skills for positioning, landing page, pricing, Product Hunt and launch review.
+
+
+## Best value: all 18 skills
+
+The **[Claude Skills Complete Bundle](https://kritikos12.gumroad.com/l/claude-skills-complete?utm_source=github&utm_campaign=fos-lite-bundle)** has both packs (10 Freelancer Ops + 8 Indie Launch) for €19 instead of €23.99. Single skills from $4.99 on [Agensi](https://www.agensi.io/creators/giannis-kritikos).
 
 ## License
 
