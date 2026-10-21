@@ -1,6 +1,6 @@
 # Freelancer Ops Skills: Lite (free)
 
-[![skills.sh installs](https://skills.sh/b/kritikosgns-web/freelancer-ops-skills-lite)](https://skills.sh/kritikosgns-web/freelancer-ops-skills-lite)
+[![skills.sh installs](https://skills.sh/b/runbooklabhq/freelancer-ops-skills-lite)](https://skills.sh/runbooklabhq/freelancer-ops-skills-lite)
 
 Three free Claude Code skills for the three emails freelancers rewrite most often: the proposal, the "that wasn't in scope" reply, and the late-invoice chaser.
 
@@ -17,15 +17,15 @@ Each one is a `SKILL.md` with explicit inputs, decision rules and a fixed output
 One line, any agent that reads `SKILL.md` (Claude Code, Cursor, Codex, Gemini CLI…):
 
 ```bash
-npx skills add kritikosgns-web/freelancer-ops-skills-lite
+npx skills add runbooklabhq/freelancer-ops-skills-lite
 ```
 
-Or one skill only: `npx skills add kritikosgns-web/freelancer-ops-skills-lite --skill proposal-writer`
+Or one skill only: `npx skills add runbooklabhq/freelancer-ops-skills-lite --skill proposal-writer`
 
 Without Node:
 
 ```bash
-git clone https://github.com/kritikosgns-web/freelancer-ops-skills-lite
+git clone https://github.com/runbooklabhq/freelancer-ops-skills-lite
 cd freelancer-ops-skills-lite
 bash install.sh            # all your projects (~/.claude/skills)
 bash install.sh --project  # current project only (./.claude/skills)
@@ -37,16 +37,16 @@ Restart Claude Code and type `/` to see them. They also work pasted into a Claud
 
 The full pack adds `pricing-calculator`, `contract-review`, `client-onboarding`, `status-update`, `weekly-review`, `cold-outreach` and `testimonial-request`. Together the ten cover pricing a job, signing it, running it, getting paid and getting the next client.
 
-**[Get the full 10-skill pack for €9 →](https://kritikos12.gumroad.com/l/freelancer-ops-skills?utm_source=github&utm_campaign=lite)**
+**[Get the full 10-skill pack for €9 →](https://gumroad.com/l/freelancer-ops-skills?utm_source=github&utm_campaign=lite)**
 
 Also on [Etsy](https://www.etsy.com/listing/4597264171/claude-code-skills-bundle-for).
 
-Launching your own product? See **[Indie Launch Skills](https://kritikos12.gumroad.com/l/ppxgwi?utm_source=github&utm_campaign=lite)**: 8 skills for positioning, landing page, pricing, Product Hunt and launch review.
+Launching your own product? See **[Indie Launch Skills](https://gumroad.com/l/ppxgwi?utm_source=github&utm_campaign=lite)**: 8 skills for positioning, landing page, pricing, Product Hunt and launch review.
 
 
 ## Best value: all 18 skills
 
-The **[Claude Skills Complete Bundle](https://kritikos12.gumroad.com/l/claude-skills-complete?utm_source=github&utm_campaign=fos-lite-bundle)** has both packs (10 Freelancer Ops + 8 Indie Launch) for €19 instead of €23.99. Single skills from $4.99 on [Agensi](https://www.agensi.io/creators/giannis-kritikos).
+The **[Claude Skills Complete Bundle](https://gumroad.com/l/claude-skills-complete?utm_source=github&utm_campaign=fos-lite-bundle)** has both packs (10 Freelancer Ops + 8 Indie Launch) for €19 instead of €23.99. Single skills from $4.99 on [Agensi](https://www.agensi.io/bundles/freelancer-ops-skills-7-claude-code-skills-for-pricing-contracts-onboarding-clients).
 
 ## License
 
